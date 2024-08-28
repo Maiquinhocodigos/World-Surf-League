@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .profile {
+    padding: 0.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .um {
+    border: 2px solid red;
+  }
+
+  .dois {
+    border: 2px solid blue;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin: 0 14px;
+  }
+  
+  .score-box {
+    display: inline-block;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 0.25em;
+    color: white;
+  }
+  
+  .primeira {
+    background-color: green;
+  }
+  
+  .segunda {
+    background-color: yellowgreen;
+  }
+  
+  .button {
+    background-color: #119cea;
+    padding: 0.5em 0.75em;
+    margin-left: 0.5em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+  }
+
+  table {
+    margin: 14px;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: cornsilk;
+    color: #1a1a1a;
+}
+
+td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/* #pontuacao-ondas{ 
+  display: none;
+}                               // aqui tá comentado porque não pq diacho meu JavaScript não tá funcionando   */
+
+  .form_surfistas{
+    padding: 0.5em;
+  }
